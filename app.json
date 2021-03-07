@@ -8,7 +8,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#353535"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -23,10 +23,14 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "windowSoftInputMode": "adjustPan"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "expo": {
+      "backgroundColor": "#353535"
     }
   }
 }
